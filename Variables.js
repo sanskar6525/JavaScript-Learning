@@ -1,29 +1,24 @@
-//There are three ways of declaring variables in JavaScript : 
+console.log("Declaring variables-------")
+//There are four ways of declaring variables in JavaScript : 
 
 let x=1;             // Method 1 
 const y=121;         // Method 2
 z=12;                // Method 3
+var w=23;            // Method 4
 
 console.log("y="+y);
 console.log("x="+x);
 console.log("z="+z);
+console.log("w="+w);
 //y=22;   ------- We cannot change the value of a variable declared as const
 x="Content of variable x is changed !!";             ///   ----We can change the value of variables declared by let
 console.log("x="+x);
-z="Changed"
-console.log("z="+z);     
+z="Z--Changed"                                       ///   ----We can change the value of variables declared without any keyword
+console.log("z="+z); 
+w="W is changed"                                     ///   ----We can change the value of variables declared by var
+console.log("w="+w);   
 
-let sample="Outside Block";
-{
-    let sample="Inside Block";
-    console.log("Sample Inside block="+sample);  
-}
-console.log("Sample Outside block="+sample);  
-
-var sample2="Outside Block";
-{
-    var sample2="Inside Block";
-    console.log("Sample2 Inside block="+sample2);  
-}
-console.log("Sample2 Outside block="+sample2);  
-console.log("Sample2 Outside dfsd");
+//let x=1;              ------We cannot re-declare a let varibale
+//const y=121;          ------We cannot re-declare a const varibale
+var w=34;               //----We can re-declare a var varibale
+console.log("w="+w);    
