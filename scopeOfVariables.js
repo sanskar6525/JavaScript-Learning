@@ -22,7 +22,7 @@ console.log("let Sample after block= "+sample2);
 
 console.log("Scope of variables-------");
 sample3="sample--Outside Block";
-console.log("Sample before block= "+sample2); 
+console.log("Sample before block= "+sample3); 
 {
     sample3="sample--Inside Block";
     console.log("Sample Inside block= "+sample3);  
